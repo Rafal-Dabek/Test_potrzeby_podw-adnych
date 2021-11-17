@@ -32,7 +32,7 @@ function done2()
     suma += 0;
   }
 
-  if(document.getElementById("4_2").checked == true)
+  if(document.getElementById("4_2_2").checked == true)
   {
       suma += 1
   }
@@ -68,7 +68,7 @@ function done2()
     suma += 0;
   }
 
-  if(document.getElementById("8_4").checked == true)
+  if(document.getElementById("8_4_2").checked == true)
   {
       suma += 1
   }
@@ -86,7 +86,7 @@ function done2()
     suma += 0;
   }
 
-  if(document.getElementById("10_3").checked == true)
+  if(document.getElementById("10_3_2").checked == true)
   {
       suma += 1
   }
@@ -122,30 +122,18 @@ function done2()
   var p=Array.from(d);
 
   if((d.length)!=10){
-    alert("Nie wszytkie odpowiedzi są zaznaczone")
+    alert("Nie wszytkie odpowiedzi są zaznaczone!")
   }
 
   if(d.length==10 && (is_pressed==false)){
     
     is_pressed=true;
-    //alert(suma);
 
     document.getElementById("punkty_1").innerHTML +=  suma + "/10 pkt";
 
   }
 
-  //alert(suma);
   
-  // if(is_pressed == false)
-  // {
-    
-  //   document.getElementById("punkty_1").innerHTML +=  suma + "/10 pkt";
-
-  //   is_pressed = true;
-  // }
-  
-
-
 }
 
 function done(){
