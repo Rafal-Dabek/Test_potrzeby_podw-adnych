@@ -9,91 +9,61 @@ function done2()
   {
       suma += 1
   }
-  else
-  {
-    suma += 0;
-  }
+  
 
   if(document.getElementById("2_5").checked == true)
   {
       suma += 1
   }
-  else
-  {
-    suma += 0;
-  }
+  
 
   if(document.getElementById("3_1").checked == true)
   {
       suma += 1
   }
-  else
-  {
-    suma += 0;
-  }
+ 
 
   if(document.getElementById("4_2_2").checked == true)
   {
       suma += 1
   }
-  else
-  {
-    suma += 0;
-  }
+ 
 
   if(document.getElementById("5_4").checked == true)
   {
       suma += 1
   }
-  else
-  {
-    suma += 0;
-  }
+  
 
   if(document.getElementById("6_5").checked == true)
   {
       suma += 1
   }
-  else
-  {
-    suma += 0;
-  }
+  
 
   if(document.getElementById("7_1").checked == true)
   {
       suma += 1
   }
-  else
-  {
-    suma += 0;
-  }
+ 
 
   if(document.getElementById("8_4_2").checked == true)
   {
       suma += 1
   }
-  else
-  {
-    suma += 0;
-  }
+  
 
   if(document.getElementById("9_5").checked == true)
   {
       suma += 1
   }
-  else
-  {
-    suma += 0;
-  }
+ 
 
   if(document.getElementById("10_3_2").checked == true)
   {
       suma += 1
   }
-  else
-  {
-    suma += 0;
-  }
+  
 
   
 
